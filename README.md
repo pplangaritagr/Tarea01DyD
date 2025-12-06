@@ -2,33 +2,33 @@
 
 ## Tarea 01
 
-** Crea un repositorio local y un repositorio en GitHub
+** Crea un repositorio local y un repositorio en GitHub**
 
-_ Comandos utilizados:
+_ Comandos utilizados:_
 
 > mkdir Tarea01
-> cd Tarea01
-> git init
-> git remote add origin https://github.com/pplangaritagr/Tarea01DyD
+ cd Tarea01
+ git init
+ git remote add origin https://github.com/pplangaritagr/Tarea01DyD
 
-** Estructura básica del proyecto
+** Estructura básica del proyecto**
 
-_ Comandos utilizados:
+_ Comandos utilizados:_
 
 > nano index.html
-> touch .gitignore
+ touch .gitignore
 
 
-** Primer commit y push
+** Primer commit y push**
 
-_ Comandos utilizados:
+_ Comandos utilizados:_
 
-> git add .
-> git commit -m "Inicio del proyecto: estructura básica"
-> git push -u origin main 
+ git add .
+ git commit -m "Inicio del proyecto: estructura básica"
+ git push -u origin main 
 
 
-** Desarrollo de mejoras: 
+** Desarrollo de mejoras: **
 
 Añadir tabla:
 
@@ -59,19 +59,19 @@ Añadir tabla:
 
 Añadir footer:
 
->     <footer>
+> <footer>
         <p>Facebook</p>
         <p>Instagram</p>
         <p>LinkedIn</p>
     </footer>
 
-_ Comandos utilizados:
+_ Comandos utilizados:_
 
-> git checkout -b feature/tabla
-> git checkout -b feature/footer
-> nano index.html
-> git add index.html
-> git commit -m "Añadir tabla"
-> git commit -m "Añadir footer"
-> git push origin feature/tabla
-> git push origin feature/footer
+ git checkout -b feature/tabla
+ git checkout -b feature/footer
+ nano index.html
+ git add index.html
+ git commit -m "Añadir tabla"
+ git commit -m "Añadir footer"
+ git push origin feature/tabla
+ git push origin feature/footer
