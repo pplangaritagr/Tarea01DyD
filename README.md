@@ -2,9 +2,9 @@
 
 ## Tarea 01
 
-** Crea un repositorio local y un repositorio en GitHub**
+**Crea un repositorio local y un repositorio en GitHub**
 
-_ Comandos utilizados: _
+_Comandos utilizados:_
 
 ```bash
 mkdir Tarea01
@@ -13,24 +13,24 @@ git init
 git remote add origin https://github.com/pplangaritagr/Tarea01DyD
 
 ```
-** Estructura básica del proyecto**
+**Estructura básica del proyecto**
 
-_ Comandos utilizados: _
+_Comandos utilizados:_
 ```bash
 nano index.html
 touch .gitignore
 ```
 
-** Primer commit y push**
+**Primer commit y push**
 
-_ Comandos utilizados: _
+_Comandos utilizados:_
 ```bash 
 git add .
 git commit -m "Inicio del proyecto: estructura básica"
 git push -u origin main 
 ```
 
-** Desarrollo de mejoras: **
+**Desarrollo de mejoras:**
 
 Añadir tabla:
 
@@ -69,7 +69,7 @@ Añadir footer:
         <p>LinkedIn</p>
     </footer>
 ```
-_ Comandos utilizados: _
+_Comandos utilizados:_
 ```bash
 git checkout -b feature/tabla
 git checkout -b feature/footer
