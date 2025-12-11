@@ -1,8 +1,14 @@
 # Desarrollo y Despliegue en entornos colaborativos
 
-## Tarea 01
+# _Tarea 01_
 
-**Crea un repositorio local y un repositorio en GitHub**
+## Tabla de contenidos
+- [**Crea un repositorio local y un repositorio en GitHub**](#crea-un-repositorio-local-y-un-repositorio-en-github)
+- [**Estructura básica del proyecto**](#estructura-básica-del-proyecto)
+- [**Primer commit y push**](#primer-commit-y-push)
+- [**Desarrollo de mejoras:**](#desarrollo-de-mejoras)
+
+### **Crea un repositorio local y un repositorio en GitHub**
 
 _Comandos utilizados:_
 
@@ -13,7 +19,7 @@ git init
 git remote add origin https://github.com/pplangaritagr/Tarea01DyD
 
 ```
-**Estructura básica del proyecto**
+### **Estructura básica del proyecto**
 
 _Comandos utilizados:_
 ```bash
@@ -21,7 +27,7 @@ nano index.html
 touch .gitignore
 ```
 
-**Primer commit y push**
+### **Primer commit y push**
 
 _Comandos utilizados:_
 ```bash 
@@ -30,7 +36,7 @@ git commit -m "Inicio del proyecto: estructura básica"
 git push -u origin main 
 ```
 
-**Desarrollo de mejoras:**
+### **Desarrollo de mejoras:**
 
 Añadir tabla:
 
@@ -80,3 +86,5 @@ git commit -m "Añadir footer"
 git push origin feature/tabla
 git push origin feature/footer
 ```
+ 
+
